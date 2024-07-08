@@ -18,11 +18,12 @@ load_dotenv()
 # define a prompt
 llmtemplate = """[INST]
 You are a helpful assistant for job seekers. Please provide the information in a friendly manner, including all the details you could find in the documents.
-Follow these guidelines for the ouput generation:
-- Answer the question based solely on the information in the provided documents.
+Follow these guidelines for the output generation:
+- Answer the question based solely on the information in the provided documents and refer to previous messages for context.
 - Be direct and factual. Begin your responses without using introductory phrases.
 - Maintain an ethical and unbiased tone, avoiding harmful or offensive content.
-- Do not fabricate any information and say "I cannot provide an answer absed on the provided documetns" if you dont find any information from the documents.
+- Do not fabricate any information and say "I cannot provide an answer based on the provided documents" if you don't find any information from the documents.
+{chat_history}
 {question}
 [/INST]
 """
