@@ -6,6 +6,9 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that he
 The chatbot runs locally, ensuring **privacy** and **offline capability**.
 
 ## Project Overview
+**Problem:** Job seekers need quick, accurate, searchable access to large datasets of job postings.  
+**Solution:** A RAG pipeline that performs semantic search over job data and generates factual answers constrained to your dataset.  
+**Why Local:** Offline usage, low cost, enhanced data privacy.
 
 ## 🚀 Features
 - **Load job postings from CSVs** with validation for required columns.
