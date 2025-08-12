@@ -16,7 +16,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that I 
   6. **User interface** — Streamlit‑based chat with custom styling.
 
 
- ## 🚀 Key Features
+ ## Key Features
 - **Fully local** chatbot workflow (offline capability, privacy‑friendly)
 - **Schema validation** for incoming CSV data (`title`, `company`, `job_description`, `key_skills`)
 - **Prompt engineering** to ensure grounded, factual, and helpful responses
@@ -24,7 +24,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that I 
 - **Polished UI** with styled chat bubbles for user/bot messages
 
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Python**, **Pandas**
 - **BeautifulSoup** (data scraping – pre‑internship work, dataset not included)
 - **HuggingFace sentence-transformers** (`all-MiniLM-L6-v2`)
@@ -34,5 +34,5 @@ This project is a **Retrieval-Augmented Generation (RAG)** based chatbot that I 
 - **Streamlit** (UI)
 
 
-## 📸 Demo
+## Demo
 ![Chatbot Interface](Interface.png)
